@@ -29,5 +29,21 @@ The most immediate problem that needs to be resolved is the syntax and OAuth iss
 
 From the research and discussions I've had Mapbox seems to be best technology to tackle this project. It would take some time, consultation and guidance in order to get a good handle on it, however I'm confident that I have the tools required to conquer this challenge. 
 
+# How I would have done filtering (part b)
+ In order to filter out unwanted information I would have set up a model and schema to pinpoint the relational data that I would have needed in order to then create vizualization. An example:
+ 
+ ```
+ const Bachelor = new Schema({
+  name: String,
+  year: Number,
+  winner: String,
+  stillTogether: Boolean
+})
+```
+
+# Using Chart.js/Plotly.js
+After looking at the documentation, I would have installed the dependency needed (depending on whichever I felt would have worked better for me) using NPM. Then, following the documentation examples for creating a chart I would import my data, specify the type of chart and used any neccessary options such as scales and at what integer to begin, such as zero. I would also use the integrated styling ( in chart.js) to make it more visually pleasing and in order to demonstrate the relationship in a clearer way. 
+
+
 #Additional Comments
 Once I had everything running I would use either Netlify or Heroku to deploy this application.
