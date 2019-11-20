@@ -10,6 +10,9 @@ const getData = async () => {
   })
 }
 
+(async () => {
+  console.log( await getData())
+})
 
 
 
