@@ -28,3 +28,6 @@ I understand that the provided code seems sparse, however I spent a majority of 
 The most immediate problem that needs to be resolved is the syntax and OAuth issue so that I can reliably get the data provided from the endpoint. In order to resolve it, as mentioned before, I'd have a fresh set of eyes look to see if I missed something in the syntax. If not, I'd look back at the documentation and see if there's something in there that I missed, along with looking at Axios documentation and how it handles App Tokens. 
 
 From the research and discussions I've had Mapbox seems to be best technology to tackle this project. It would take some time, consultation and guidance in order to get a good handle on it, however I'm confident that I have the tools required to conquer this challenge. 
+
+#Additional Comments
+Once I had everything running I would use either Netlify or Heroku to deploy this application.
